@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="header">
+        <span>Formulario com CSS</span>
+    </div>
+
+     <div class="form1">
+        <form action="pag2" method="POST">
+            <fieldset>
+                <legend>Cadrastro</legend>
+
+             <span>
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" id="idnome" placeholder="Digite seu nome..">
+             </span>
+
+             <span>
+                <label for="nome">Email:</label>
+                <input type="text" id="idemail" placeholder="email@email.com">
+             </span>
+
+             <span>
+                 <label for="nome">Senha:</label>
+                 <input type="text" id="idsenha" placeholder="Crie uma senha">
+             </span>
+
+             <span>
+                <label for="pergunta"> Como voce conheceu nosso site</label>
+                <select nome="pergunta" id="pergunta">
+                <option>Selecione</option>
+                <option value="net"> Pesquisando na Internet </option>
+                <option value="ad"> Anuncio </option>
+                <option value="amigo"> Indicaçao de um amigo</option>
+                <option value="outro"> Outro</option>
+                </select>
+             </span>
+
+             <span>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data">
+             </span>
+
+             <span>
+                <label for="texto">Fale um pouco sobre voce:</label>
+                <textarea for="texto" id="idtexto" maxlength="500"
+                placeholder="Até 500 caracteres.."></textarea>
+             </span>
+             <span>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+             </span>
+            
+             <button><a href="index.html"> Inicio</a></button>
+            </fieldset>
+        </form>
+     </div>
+</body>
+</html>
